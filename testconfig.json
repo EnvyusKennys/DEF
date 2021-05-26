@@ -1,15 +1,15 @@
 {
     "attack": [
-        "PortVulnerabilityTest",
-        "SmurfLocal",
-        "Ssdp",
-        "PasswordAttack",
-        "UdpDevice",
         "TcpSynDevice",
         "TcpSynReflectionRemote",
+        "Ssdp",
+        "Smurf",
+        "PasswordAttack",
+        "UdpDevice",
         "IcmpRedirection",
         "PingOfDeath",
-        "UdpFlood"
+        "UdpFlood",
+        "SmurfLocal"
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
@@ -70,96 +70,96 @@
         }
     },
     "SmurfLocal5": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "server_ip": "192.168.1.224"
     },
     "SmurfLocal": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "server_ip": "192.168.1.224"
     },
     "SmurfLocal50": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "server_ip": "192.168.1.224"
     },
     "UdpDevice5": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 1900
     },
     "UdpDevice": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 1900
     },
     "UdpDevice50": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 1900
     },
     "TcpSynDevice5": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynDevice": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynDevice50": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynReflectionRemote5": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynReflectionRemote": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynReflectionRemote50": {
-        "execution_timeout_in_seconds": 1200,
+        "execution_timeout_in_seconds": 600,
         "continuous_attack": true,
         "port": 80,
         "deviceMode": true,
         "server_ip": "192.168.1.224",
-        "gateway_ip": "192.168.1.8",
+        "gateway_ip": "149.171.36.1",
         "EC:1A:59:79:F4:89": 49153
     },
     "IcmpRedirection": {
