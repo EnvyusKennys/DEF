@@ -1,18 +1,19 @@
 {
     "attack": [
-        "PortVulnerabilityTest",
         "TcpSynDevice",
         "TcpSynReflectionRemote",
-        "UdpDevice",
-        "PasswordAttack",
         "Ssdp",
-        "SsdpRemote"
+        "Smurf",
+        "PasswordAttack",
+        "UdpDevice",
+        "IcmpRedirection",
+        "PingOfDeath",
+        "UdpFlood",
+        "SmurfLocal"
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
-        "EC:1A:59:79:F4:89",
-        "00:16:6C:AB:6B:88",
-        "B4:75:0E:EC:E5:A9"
+        "EC:1A:59:79:F4:89"
     ],
     "mode": "d2d",
     "d2d-target-macAddress": "E6:66:B8:94:FF:90",
@@ -66,74 +67,6 @@
                     65484
                 ]
             }
-        },
-        "00:16:6C:AB:6B:88": {
-            "tcp": {
-                "filtered": [],
-                "open": [
-                    80,
-                    443,
-                    554,
-                    943,
-                    4520,
-                    49152
-                ]
-            },
-            "udp": {
-                "filtered": [],
-                "open": [
-                    161,
-                    5353
-                ]
-            }
-        },
-        "B4:75:0E:EC:E5:A9": {
-            "tcp": {
-                "filtered": [],
-                "open": [
-                    80,
-                    81,
-                    443,
-                    9964,
-                    49153
-                ]
-            },
-            "udp": {
-                "filtered": [],
-                "open": [
-                    1900,
-                    10000,
-                    13105,
-                    19827,
-                    26854,
-                    28971,
-                    32596,
-                    32435,
-                    33435,
-                    35042,
-                    35316,
-                    35056,
-                    36500,
-                    36943,
-                    38587,
-                    38606,
-                    39632,
-                    39714,
-                    43588,
-                    43834,
-                    47709,
-                    48190,
-                    44179,
-                    49156,
-                    49201,
-                    49360,
-                    52042,
-                    52144,
-                    52603,
-                    55254,
-                    56284
-                ]
-            }
         }
     },
     "SmurfLocal5": {
@@ -155,9 +88,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 1900,
-        "00:16:6C:AB:6B:88": 161,
-        "B4:75:0E:EC:E5:A9": 1901
+        "EC:1A:59:79:F4:89": 1900
     },
     "UdpDevice": {
         "execution_timeout_in_seconds": 600,
@@ -166,9 +97,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 1900,
-        "00:16:6C:AB:6B:88": 161,
-        "B4:75:0E:EC:E5:A9": 1901
+        "EC:1A:59:79:F4:89": 1900
     },
     "UdpDevice50": {
         "execution_timeout_in_seconds": 600,
@@ -177,9 +106,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 1900,
-        "00:16:6C:AB:6B:88": 161,
-        "B4:75:0E:EC:E5:A9": 1901
+        "EC:1A:59:79:F4:89": 1900
     },
     "TcpSynDevice5": {
         "execution_timeout_in_seconds": 600,
@@ -188,9 +115,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 49153,
-        "00:16:6C:AB:6B:88": 554,
-        "B4:75:0E:EC:E5:A9": 81
+        "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynDevice": {
         "execution_timeout_in_seconds": 600,
@@ -199,9 +124,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 49153,
-        "00:16:6C:AB:6B:88": 554,
-        "B4:75:0E:EC:E5:A9": 81
+        "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynDevice50": {
         "execution_timeout_in_seconds": 600,
@@ -210,9 +133,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 49153,
-        "00:16:6C:AB:6B:88": 554,
-        "B4:75:0E:EC:E5:A9": 81
+        "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynReflectionRemote5": {
         "execution_timeout_in_seconds": 600,
@@ -221,9 +142,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 49153,
-        "00:16:6C:AB:6B:88": 554,
-        "B4:75:0E:EC:E5:A9": 81
+        "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynReflectionRemote": {
         "execution_timeout_in_seconds": 600,
@@ -232,9 +151,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 49153,
-        "00:16:6C:AB:6B:88": 554,
-        "B4:75:0E:EC:E5:A9": 81
+        "EC:1A:59:79:F4:89": 49153
     },
     "TcpSynReflectionRemote50": {
         "execution_timeout_in_seconds": 600,
@@ -243,9 +160,7 @@
         "deviceMode": true,
         "server_ip": "192.168.1.224",
         "gateway_ip": "149.171.36.1",
-        "EC:1A:59:79:F4:89": 49153,
-        "00:16:6C:AB:6B:88": 554,
-        "B4:75:0E:EC:E5:A9": 81
+        "EC:1A:59:79:F4:89": 49153
     },
     "IcmpRedirection": {
         "execution_timeout_in_seconds": 300,
@@ -287,15 +202,5 @@
     },
     "PasswordAttack": {
         "credential_file_path": "credentials.csv"
-    },
-    "SsdpRemote": {
-        "execution_timeout_in_seconds": 600,
-        "type": "unicast",
-        "port": 80,
-        "deviceMode": false,
-        "server_ip": "192.168.1.224",
-        "gateway_ip": "149.171.36.1",
-        "00:16:6C:AB:6B:88": 1903,
-        "B4:75:0E:EC:E5:A9": 1901
     }
 }
