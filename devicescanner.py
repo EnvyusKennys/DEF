@@ -266,7 +266,7 @@ def setupDevice(macAddress, data):
 
 def main():
     log.info('----- IoT Device Network Exploitation Framework -----')
-    with open('config.json') as data_file:
+    with open('testconfig2.json') as data_file:
         data = json.load(data_file)
 
     status, invalidAttack = validatePrerequisite(data)

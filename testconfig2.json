@@ -1,19 +1,10 @@
 {
     "attack": [
-        "TcpSynDevice",
-        "TcpSynReflectionRemote",
-        "Ssdp",
-        "Smurf",
-        "PasswordAttack",
-        "UdpDevice",
-        "IcmpRedirection",
-        "PingOfDeath",
-        "UdpFlood",
-        "SmurfLocal"
+        "PortVulnerabilityTest"
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
-        "EC:1A:59:79:F4:89"
+        "B4:75:0E:EC:E5:A9"
     ],
     "mode": "d2d",
     "d2d-target-macAddress": "E6:66:B8:94:FF:90",
@@ -65,6 +56,54 @@
                     53330,
                     55353,
                     65484
+                ]
+            }
+        },
+        "B4:75:0E:EC:E5:A9": {
+            "tcp": {
+                "filtered": [],
+                "open": [
+                    80,
+                    81,
+                    443,
+                    9964,
+                    49153
+                ]
+            },
+            "udp": {
+                "filtered": [],
+                "open": [
+                    1900,
+                    10000,
+                    13105,
+                    19827,
+                    26854,
+                    28971,
+                    32596,
+                    32435,
+                    33435,
+                    35042,
+                    35316,
+                    35056,
+                    36500,
+                    36943,
+                    38587,
+                    38606,
+                    39632,
+                    39714,
+                    43588,
+                    43834,
+                    47709,
+                    48190,
+                    44179,
+                    49156,
+                    49201,
+                    49360,
+                    52042,
+                    52144,
+                    52603,
+                    55254,
+                    56284
                 ]
             }
         }
