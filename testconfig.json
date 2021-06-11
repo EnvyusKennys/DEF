@@ -14,9 +14,6 @@
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
-        "EC:1A:59:79:F4:89",
-        "00:16:6C:AB:6B:88",
-        "B4:75:0E:EC:E5:A9",
         "50:C7:BF:00:56:39",
         "00:17:88:2B:9A:25",
         "EC:1A:59:83:28:11",
@@ -434,7 +431,7 @@
         "EC:1A:59:83:28:11": 1901,
         "EC:1A:59:79:F4:89": 1900
     },
-    "SsdpRemote": {
+    "2Remote": {
         "execution_timeout_in_seconds": 600,
         "type": "unicast",
         "port": 80,
