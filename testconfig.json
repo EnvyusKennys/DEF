@@ -10,12 +10,12 @@
         "TcpSyn",
         "PingOfDeath",
         "UdpFlood",
-        "PasswordAttack"
+        "PasswordAttack",
+        "SmurfLocal5",
+        "IcmpRedirection"
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
-        "50:C7:BF:00:56:39",
-        "00:17:88:2B:9A:25",
         "EC:1A:59:83:28:11",
         "70:EE:50:18:34:43"
     ],
