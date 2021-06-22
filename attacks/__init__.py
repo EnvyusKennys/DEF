@@ -9,4 +9,4 @@ ATTACK_MAP = {"ArpSpoof":"arp_spoof","PortVulnerabilityTest":"port_vulnerability
 		"TcpSynDevice":"tcp_syn_device","TcpSynDevice5":"tcp_syn_device5","TcpSynDevice50":"tcp_syn_device50"
 		,"UdpDevice":"udp_device","UdpDevice5":"udp_device5","UdpDevice50":"udp_device50", "SsdpRemote50": "ssdp_remote50", "SsdpRemote5": "ssdp_remote5"
 		,"PortVulnerabilityTest30000":"port_vulnerability30000", "PortVulnerabilityTest10000":"port_vulnerability10000","PortVulnerabilityTest1000":"port_vulnerability1000"
-		,"PortVulnerabilityTestudp30000":"port_vulnerabilityudp30000", "PortVulnerabilityTestudp10000":"port_vulnerabilityudp10000","PortVulnerabilityTestudp1000":"port_vulnerabilityudp1000"}
+		,"PortVulnerabilityTestudp30000":"port_vulnerabilityudp30000", "PortVulnerabilityTestudp10000":"port_vulnerabilityudp10000","PortVulnerabilityTestudp1000":"port_vulnerabilityudp1000","PortVulnerabilityTestudp":"port_vulnerabilityudp"}
