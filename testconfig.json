@@ -260,6 +260,18 @@
             }
         }
     },
+    "PortVulnerabilityTest30000": {
+        "port_range": "0-30000",
+        "udp": false,
+        "skip": false,
+        "optimization": "--min-parallelism 100 --stats-every 1m"
+    },
+    "PortVulnerabilityTestudp": {
+        "port_range": "0-65535",
+        "udp": true,
+        "skip": false,
+        "optimization": "--min-parallelism 100 --stats-every 1m"
+    },
     "SmurfLocal5": {
         "execution_timeout_in_seconds": 600,
         "server_ip": "192.168.1.173"
