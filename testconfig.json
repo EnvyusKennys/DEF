@@ -1,22 +1,12 @@
 {
     "attack": [
         "PortVulnerabilityTest",
-        "TcpSynDevice5",
-        "TcpSynReflectionRemote5",
-        "UdpDevice5",
-        "SsdpRemote5",
-        "SnmpRemote5",
-        "TcpConnectionFlood",
-        "TcpSyn",
-        "PingOfDeath",
-        "UdpFlood",
-        "PasswordAttack",
-        "SmurfLocal5",
-        "IcmpRedirection"
+        "PortVulnerabilityTestudp"
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
-        "70:5A:0F:E4:9B:C0"
+        "AC:84:C6:02:89:05",
+        "D0:73:D5:01:83:08"
     ],
     "mode": "d2d",
     "d2d-target-macAddress": "2C:27:D7:42:B1:58",
@@ -270,7 +260,7 @@
         "port_range": "0-65535",
         "udp": true,
         "skip": false,
-        "optimization": "--min-parallelism 100 --stats-every 1m"
+        "optimization": "--min-parallelism 20 --stats-every 1m"
     },
     "SmurfLocal5": {
         "execution_timeout_in_seconds": 600,

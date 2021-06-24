@@ -1,5 +1,6 @@
 {
     "attack": [
+        "PortVulnerabilityTest",
         "PortVulnerabilityTestudp"
     ],
     "interfaces": "eth0,en0,eno1",
@@ -228,7 +229,7 @@
         "port_range": "0-65535",
         "udp": true,
         "skip": false,
-        "optimization": "--min-parallelism 100 --stats-every 1m"
+        "optimization": "--min-parallelism 100 --stats-every 1m --host-timeout"
     },
     "SmurfLocal5": {
         "execution_timeout_in_seconds": 600,
