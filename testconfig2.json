@@ -1,14 +1,11 @@
 {
     "attack": [
         "PortVulnerabilityTest",
-        "UdpDevice5"
+        "SsdpRemote5"
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
         "EC:1A:59:79:F4:89"
-    ],
-    "ipToAttack": [
-        "192.168.1.162"
     ],
     "mode": "d2d",
     "d2d-target-macAddress": "2C:27:D7:42:B1:58",
@@ -436,9 +433,9 @@
         "execution_timeout_in_seconds": 600,
         "type": "unicast",
         "port": 80,
-        "deviceMode": true,
+        "deviceMode": false,
         "server_ip": "192.168.1.173",
-        "gateway_ip": "149.171.36.1",
+        "gateway_ip": "149.171.37.170",
         "00:16:6C:AB:6B:88": 1904,
         "B4:75:0E:EC:E5:A9": 1903,
         "00:17:88:2B:9A:25": 1902,
