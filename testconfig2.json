@@ -1,17 +1,17 @@
 {
     "attack": [
         "PortVulnerabilityTest",
-        "PortVulnerabilityTestudp"
+        "UdpDevice5"
     ],
     "interfaces": "eth0,en0,eno1",
     "mac_address": [
-        "70:5A:0F:E4:9B:C0"
+        "EC:1A:59:79:F4:89"
     ],
     "mode": "d2d",
     "d2d-target-macAddress": "2C:27:D7:42:B1:58",
     "interval_between_attacks_in_seconds": 60,
     "blockPrint": true,
-    "remoteAttackMode": false,
+    "remoteAttackMode": true,
     "ArpSpoof": {
         "execution_timeout_in_seconds": 300,
         "tcpdump": false,
@@ -24,6 +24,7 @@
         "udp": false,
         "skip": false,
         "optimization": "--min-parallelism 100 --stats-every 1m",
+        "2C:27:D7:42:B1:58": "",
         "E6:66:B8:94:FF:90": "",
         "EC:1A:59:79:F4:89": {
             "tcp": {
