@@ -7,6 +7,9 @@
     "mac_address": [
         "EC:1A:59:79:F4:89"
     ],
+    "ipToAttack": [
+        "192.168.1.162"
+    ],
     "mode": "d2d",
     "d2d-target-macAddress": "2C:27:D7:42:B1:58",
     "interval_between_attacks_in_seconds": 60,
