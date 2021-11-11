@@ -1,6 +1,5 @@
 {
     "attack": [
-        "PortVulnerabilityTest",
         "SsdpRemote5",
         "SnmpRemote5",
         "SmurfRemote"
