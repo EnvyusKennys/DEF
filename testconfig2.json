@@ -1,8 +1,9 @@
 {
     "attack": [
-        "PortVulnerabilityTest"
+        "PortVulnerabilityTest",
         "SsdpRemote5",
-        "SnmpRemote5",    
+        "SnmpRemote5",
+        "SmurfRemote"
     ],
     "interfaces": "wifi2",
     "mac_address": [
@@ -434,8 +435,8 @@
         "execution_timeout_in_seconds": 600,
         "type": "unicast",
         "port": 80,
-        "deviceMode": false,
-        "server_ip": "192.168.1.173",
+        "deviceMode": true,
+        "server_ip": "192.168.1.223",
         "gateway_ip": "149.171.37.170",
         "00:16:6C:AB:6B:88": 1904,
         "B4:75:0E:EC:E5:A9": 1903,
