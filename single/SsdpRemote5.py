@@ -9,7 +9,7 @@ class SsdpRemote5():
         self.running = True
 
         while self.running:
-            if packetCount > 100000
+            if packetCount > 100000:
                 self.running = False
 
             SSDP_ADDR = destAddr
