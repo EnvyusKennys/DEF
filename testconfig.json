@@ -466,7 +466,7 @@
         "type": "unicast",
         "port": 80,
         "deviceMode": true,
-        "server_ip": "192.168.1.173",
+        "server_ip": "192.168.1.223",
         "gateway_ip": "149.171.36.1",
         "00:16:6C:AB:6B:88": 1904,
         "B4:75:0E:EC:E5:A9": 1903,
@@ -505,7 +505,7 @@
         "type": "unicast",
         "deviceMode": true,
         "port": 80,
-        "server_ip": "192.168.1.173",
+        "server_ip": "192.168.1.223",
         "gateway_ip": "149.171.36.1",
         "00:16:6C:AB:6B:88": 161,
         "70:5A:0F:E4:9B:C0": 161
