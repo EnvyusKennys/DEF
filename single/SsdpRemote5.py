@@ -7,7 +7,7 @@ class SsdpRemote5():
 
     def run(self):
         self.running = True
-
+        packetCount = 0
         while self.running:
             if packetCount > 100000:
                 self.running = False
