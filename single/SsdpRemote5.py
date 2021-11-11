@@ -3,7 +3,7 @@ from scapy.all import *
 class SsdpRemote5():
 
     def __init__(self):
-        super(ICMPspoof, self).__init__()
+        super(SsdpRemote5, self).__init__()
 
     def run(self):
         self.running = True
