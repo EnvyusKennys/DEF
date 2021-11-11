@@ -1,14 +1,16 @@
 {
     "attack": [
-        "PortVulnerabilityTest",
-        "SsdpRemote5"
+       
+        "SsdpRemote5",
+        "SnmpRemote5",
+        "SmurfRemote"
     ],
-    "interfaces": "eth0,en0,eno1",
+    "interfaces": "eth0,en0,eno1,wifi2",
     "mac_address": [
         "EC:1A:59:79:F4:89"
     ],
     "mode": "d2d",
-    "d2d-target-macAddress": "2C:27:D7:42:B1:58",
+    "d2d-target-macAddress": "E6:66:B8:94:FF:90",
     "interval_between_attacks_in_seconds": 60,
     "blockPrint": true,
     "remoteAttackMode": true,
